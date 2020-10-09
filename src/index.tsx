@@ -8,10 +8,11 @@ import App from './App';
 import * as reducers from "./ducks";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import services from './services';
 
 const store = createStore(combineReducers({
   ...reducers
-}), applyMiddleware(thunk));
+}), applyMiddleware(thunk.withExtraArgument(services)));
 
 ReactDOM.render(
   <React.StrictMode>
