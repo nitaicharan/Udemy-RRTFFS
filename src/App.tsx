@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Button from './components/Button';
 import Card from './components/Card';
+import Center from './components/Center';
 import Container from './components/Container';
 import Input from './components/Input';
 import Link from './components/Link';
@@ -15,7 +16,9 @@ function App() {
         <Input placeholder="Login" label="Login" />
         <Input placeholder="Password" label="Password" />
         <Button block={true}>Send</Button>
-        <Link>Registry</Link>
+        <Center>
+          <Link>Registry</Link>
+        </Center>
       </Card>
     </Container>
   );

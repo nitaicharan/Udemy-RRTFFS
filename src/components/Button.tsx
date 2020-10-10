@@ -7,11 +7,13 @@ const style = (block: boolean) => ({
     color: '#FFF',
     borderRadius: '4px',
     width: block ? '100%' : undefined,
+    marginBottom: '10px',
 });
 
 interface IButton {
     block?: boolean
 }
+
 export default class Button extends Component<IButton> {
     render() {
         const { block = false } = this.props;
