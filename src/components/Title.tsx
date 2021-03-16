@@ -5,7 +5,6 @@ const style = {
 };
 export default class Title extends Component {
     render() {
-        const { children } = this.props;
         return (
             <h2 {...this.props} style={style} />
         );
