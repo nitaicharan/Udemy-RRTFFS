@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const style = {
-    backgroudColor: "#eee",
+    backgroundColor: "#eee",
     padding: '10px 15px',
     height: 'calc(100vh - 20px)',
     width: 'calc(100vw - 30px)',

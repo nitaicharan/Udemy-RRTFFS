@@ -12,9 +12,9 @@ function App() {
     <Container>
       <Card>
         <Title>Start session</Title>
-        <Input placeholder="Login" label="Login"/>
-        <Input placeholder="Password" label="Password"/>
-        <Button>Send</Button>
+        <Input placeholder="Login" label="Login" />
+        <Input placeholder="Password" label="Password" />
+        <Button block={true}>Send</Button>
         <Link>Registry</Link>
       </Card>
     </Container>

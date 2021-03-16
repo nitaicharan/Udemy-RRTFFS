@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const style = {
-    backgroudColor: "#fff",
+    backgroundColor: "#fff",
     padding: '10px 15px',
     border: '1px solid #ddd',
     borderRadius: '4px',
