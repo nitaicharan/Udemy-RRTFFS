@@ -1,10 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export class Intro extends Component {
+interface IIntroProps {
+    text: string,
+}
+
+export class Intro extends Component<IIntroProps> {
     render() {
+        const {text } = this.props;
+
         return (
             <p className="App-intro">
-                <span>Lala!</span>
+                <span>{text}!</span>
             </p>
         )
     }
