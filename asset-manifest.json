@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Udemy-RRTFFS1/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Udemy-RRTFFS1/static/js/main.58b082f1.chunk.js",
+    "main.js.map": "/Udemy-RRTFFS1/static/js/main.58b082f1.chunk.js.map",
+    "runtime-main.js": "/Udemy-RRTFFS1/static/js/runtime-main.abf780fd.js",
+    "runtime-main.js.map": "/Udemy-RRTFFS1/static/js/runtime-main.abf780fd.js.map",
+    "static/js/2.c7a771c2.chunk.js": "/Udemy-RRTFFS1/static/js/2.c7a771c2.chunk.js",
+    "static/js/2.c7a771c2.chunk.js.map": "/Udemy-RRTFFS1/static/js/2.c7a771c2.chunk.js.map",
+    "static/js/3.710b24fc.chunk.js": "/Udemy-RRTFFS1/static/js/3.710b24fc.chunk.js",
+    "static/js/3.710b24fc.chunk.js.map": "/Udemy-RRTFFS1/static/js/3.710b24fc.chunk.js.map",
+    "index.html": "/Udemy-RRTFFS1/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Udemy-RRTFFS1/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.c7a771c2.chunk.js.LICENSE.txt": "/Udemy-RRTFFS1/static/js/2.c7a771c2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Udemy-RRTFFS1/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abf780fd.js",
+    "static/js/2.c7a771c2.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.58b082f1.chunk.js"
+  ]
+}
