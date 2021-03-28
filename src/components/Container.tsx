@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 
 const style = {
-    backgroudColor: "#fff",
+    backgroudColor: "#eee",
     padding: '10px 15px',
-    border: '1px solid #ddd',
+    height: 'calc(100vh - 20px)',
+    width: 'calc(100vw - 30px)',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
 };
-export default class Card extends Component {
+export default class Container extends Component {
     render() {
         const { children } = this.props;
         return (
