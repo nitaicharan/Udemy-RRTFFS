@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Intro from './components/Intro';
+import Card from './components/Card';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Intro/>
-      <Intro text="Text for intro 2"/>
-    </div>
+    <Card>
+      lala
+    </Card>
   );
 }
 
