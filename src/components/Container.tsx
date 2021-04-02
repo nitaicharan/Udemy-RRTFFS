@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const style = (center: boolean) => ({
+const style = (center: boolean): React.CSSProperties => ({
     backgroundColor: "#eee",
     padding: '10px 15px',
     height: 'calc(100vh - 20px)',
@@ -8,6 +8,7 @@ const style = (center: boolean) => ({
     display: 'flex',
     justifyContent: center ? 'center' : undefined,
     alignItems: center ? 'center' : undefined,
+    flexDirection: 'column',
 });
 
 interface IContainerProps {
