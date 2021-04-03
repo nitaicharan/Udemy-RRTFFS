@@ -7,8 +7,8 @@ export default class NewsFeed extends Component {
         return (
             <div>
                 <Container>
-                    <div>
-                        <Post />
+                    <div style={{ margin: '0 auto' }}>
+                        <Post image={"https://placekitten.com/300/200"} />
                     </div>
                 </Container>
             </div>
