@@ -1,3 +1,5 @@
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 
 const style = {
@@ -16,8 +18,8 @@ export default class Post extends Component<IPostProps> {
             <div style={style}>
                 <img src={image} />
                 <div style={{ display: 'flex', backgroundColor: '#eee', marginLeft: '-15px', marginBottom: '-10px', width: 'calc(100% + 30px)' }}>
-                    <div style={{ flex: '1', textAlign: 'center' }}>Like</div>
-                    <div style={{ flex: '1', textAlign: 'center' }}>Share</div>
+                    <div style={{ flex: '1', textAlign: 'center', padding: '10px 15px', cursor: 'pointer' }}><FontAwesomeIcon icon={faThumbsUp} /> Like</div>
+                    <div style={{ flex: '1', textAlign: 'center', padding: '10px 15px', cursor: 'pointer' }}><FontAwesomeIcon icon={faThumbsUp} /> Share</div>
                 </div>
             </div>
         );
