@@ -10,7 +10,7 @@ import Title from '../../components/Title'
 export default class Login extends Component {
     render() {
         return (
-            <Container>
+            <Container center>
                 <Card>
                     <Title>Login</Title>
                     <Input placeholder="Login" label="Login" />

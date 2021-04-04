@@ -10,7 +10,7 @@ import Title from '../../components/Title'
 export default class Register extends Component {
     render() {
         return (
-            <Container>
+            <Container center>
                 <Card>
                     <Title>Register</Title>
                     <Input placeholder="Login" label="Login" />
