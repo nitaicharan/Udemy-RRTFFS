@@ -4,15 +4,20 @@ import Card from '../../components/Card'
 import Container from '../../components/Container'
 import LoginForm from '../../components/LoginForm'
 import Title from '../../components/Title'
-import { login } from "../../ducks/Users";
+import { ILogin, login as loginThunk } from "../../ducks/Users"
 
-class Login extends Component {
+interface ILoginProps {
+    login: (a: ILogin) => void
+}
+
+class Login extends Component<ILoginProps> {
     render() {
+        const { login } = this.props;
         return (
             <Container center>
                 <Card>
                     <Title>Login</Title>
-                    <LoginForm />
+                    <LoginForm onSubmit={login} />
                 </Card>
             </Container>
         )
@@ -21,7 +26,7 @@ class Login extends Component {
 
 const mapStateToProps = (state: any) => state;
 const mapDispatchToProps = (dispatch: any) => ({
-    login: (payload: any) => dispatch(login(payload))
+    login: (payload: any) => dispatch(loginThunk(payload))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login)

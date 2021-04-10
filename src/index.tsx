@@ -9,9 +9,11 @@ import * as reducers from "./ducks";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import services from './services';
+import { reducer as formRedux } from "redux-form";
 
 const store = createStore(combineReducers({
-  ...reducers
+  ...reducers,
+  form: formRedux,
 }), applyMiddleware(thunk.withExtraArgument(services)));
 
 ReactDOM.render(
